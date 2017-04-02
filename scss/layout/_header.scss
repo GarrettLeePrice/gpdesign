@@ -1,17 +1,35 @@
+body {
+background-color: black;
+}
+
 #header {
   width: 100vw;
   height: 100vh;
   background-color: black;
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
+}
+
+#logoBox {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
 }
 
 #logo {
+  margin-top: 5%;
   background-image: url("../img/logoNew.png");
-  background-repeat: no-repeat;
-  height: 400px;
-  width: 300px;
+  background-size: 16.8%;
+  background-repeat: repeat;
 
+  // background-repeat: no-repeat;
+  // height: 400px;
+  // width: 300px;
+  height: 100%;
+  width: 100%;
 
+}
+
+img {
 
 }
