@@ -2,7 +2,21 @@
 
 #section1 {
   background-color: silver;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+
 }
+
+#section1Project {
+  background-color: whitesmoke;
+  width: 90%;
+  height:90%;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
 #section2 {
   background-color: #8BA8B7;
 }
@@ -15,6 +29,6 @@
 }
 
 .section {
-  height: 80vh;
+  height: 900px;
   width: 100vw;
 }

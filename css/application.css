@@ -1,5 +1,67 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 #section1 {
-  background-color: silver; }
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative; }
+
+#section1Project {
+  background-color: whitesmoke;
+  width: 90%;
+  height: 90%;
+  margin-top: 40px;
+  border-radius: 10px; }
 
 #section2 {
   background-color: #8BA8B7; }
@@ -11,7 +73,7 @@
   background-color: #4570E6; }
 
 .section {
-  height: 80vh;
+  height: 900px;
   width: 100vw; }
 
 body {
@@ -19,7 +81,7 @@ body {
 
 #header {
   width: 100vw;
-  height: 100vh;
+  height: 900px;
   background-color: black; }
 
 #logoBox {
@@ -34,5 +96,15 @@ body {
   background-repeat: repeat;
   height: 100%;
   width: 100%; }
+
+.projectText {
+  flex: none;
+  position: absolute;
+  left: 5%;
+  bottom: 1%; }
+  .projectText h1 {
+    color: darkslategray; }
+  .projectText h2 {
+    color: gray; }
 
 /*# sourceMappingURL=application.css.map */
