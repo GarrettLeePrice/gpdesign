@@ -21,6 +21,9 @@
 }
 
 #card1 {
+  h2 {
+    margin-top: 10px;
+  }
   @media (max-width: 1409px) {
     margin-bottom: -100px;
   }
@@ -54,7 +57,7 @@
   // justify-content: center;
   margin-top: -100px;
   margin-right: 20px;
-  background-color: whitesmoke;
+  background-color: white;
   @media (max-width: 939px) {
     height: 1083px;
     width: 750px;
@@ -62,7 +65,7 @@
 
 }
 
-.projectCardImage {
+#projectCardImage1 {
   height: 60%;
   width: 95%;
   background-image: url("../img/main.jpg");
@@ -72,8 +75,30 @@
   margin-top: 2.5%;
   border-radius: 10px;
   margin: 2.5% auto;
-}
 
+}
+#projectCardImage2 {
+  height: 60%;
+  width: 95%;
+  background-image: url("../img/ArcticWildScreenShot.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 2.5%;
+  border-radius: 10px;
+  margin: 2.5% auto;
+}
+#projectCardImage3 {
+  height: 60%;
+  width: 95%;
+  background-image: url("../img/LogoWY'EASTblack.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 2.5%;
+  // border-radius: 10px;
+  margin: 2.5% auto;
+}
 .cardText {
   margin: 0 auto;
   text-align: center;
@@ -84,7 +109,7 @@
   // flex-wrap: wrap;
   // justify-content: center;
     h1{
-      padding-bottom: 4%;
+      padding-bottom: 2%;
       font-size: 16pt;
       letter-spacing: .5px;
     }
@@ -93,7 +118,13 @@
       font-size: 12pt;
       letter-spacing: 1px;
     }
+    p {
+      padding-bottom: 1%;
+      font-size: 12pt;
+      letter-spacing: 1px;
+    }
     hr {
       width: 55%;
+
     }
 }
