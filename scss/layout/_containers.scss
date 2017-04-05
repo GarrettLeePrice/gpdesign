@@ -1,5 +1,5 @@
-#projectsSection {
-  height: 900px;
+.projectSection {
+  height: 1400px;
   width: 100vw;
   background-color: whitesmoke;
   display: flex;
@@ -8,15 +8,26 @@
   padding-top: 40px;
 }
 
+#projectSection1 {
+  height: 1600px;
+  width: 100vw;
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .projectCard {
-  height: 70%;
-  width: 35%;
+  height: 900px;
+  width: 600px;
   border: 2px solid silver;
   border-radius: 10px;
   // display: flex;
   // flex-wrap: wrap;
   // justify-content: center;
   margin-top: -100px;
+  margin-right: 20px;
+  background-color: whitesmoke;
 
 }
 
