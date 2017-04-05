@@ -9,17 +9,44 @@
 }
 
 #projectSection1 {
-  height: 1600px;
+  height: 1500px;
   width: 100vw;
   background-color: whitesmoke;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+    @media (max-width: 939px) {
+      height: 3045px;
+  }
 }
 
+#card1 {
+  @media (max-width: 1409px) {
+    margin-bottom: -100px;
+  }
+  @media (max-width: 939px) {
+
+  }
+}
+#card2 {
+  @media (max-width: 1409px) {
+    margin-bottom: -100px;
+  }
+  @media (max-width: 939px) {
+    margin-top: 120px;
+  }
+}
+#card3 {
+  @media (max-width: 1409px) {
+    margin-top: -100px;
+  }
+  @media (max-width: 939px) {
+    margin-top: 120px;
+  }
+}
 .projectCard {
-  height: 900px;
-  width: 600px;
+  height: 650px;
+  width: 450px;
   border: 2px solid silver;
   border-radius: 10px;
   // display: flex;
@@ -28,6 +55,10 @@
   margin-top: -100px;
   margin-right: 20px;
   background-color: whitesmoke;
+  @media (max-width: 939px) {
+    height: 1083px;
+    width: 750px;
+  }
 
 }
 
