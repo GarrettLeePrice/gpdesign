@@ -63,9 +63,6 @@ table {
   width: 35%;
   border: 2px solid silver;
   border-radius: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   margin-top: -100px; }
 
 .projectCardImage {
@@ -76,30 +73,37 @@ table {
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 2.5%;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin: 2.5% auto; }
 
 .cardText {
+  margin: 0 auto;
+  text-align: center;
   padding-top: 5%;
-  height: 40%;
-  width: 80%; }
+  height: 24%;
+  width: 100%; }
   .cardText h1 {
-    text-align: center;
-    padding-bottom: 2%;
-    font-size: 16pt; }
+    padding-bottom: 4%;
+    font-size: 16pt;
+    letter-spacing: .5px; }
+  .cardText h2 {
+    padding-bottom: 1%;
+    font-size: 12pt;
+    letter-spacing: 1px; }
   .cardText hr {
     width: 55%; }
 
 body {
-  background-color: black; }
+  background-color: #787887; }
 
 #header {
   width: 100vw;
-  height: 900px;
-  background-color: black; }
+  height: 700px;
+  background-color: #787887; }
 
 #logoBox {
-  width: 600px;
-  height: 600px;
+  width: 100%;
+  height: 76%;
   margin: 0 auto; }
 
 #logo {
@@ -110,14 +114,17 @@ body {
   height: 100%;
   width: 100%; }
 
-.projectText {
-  flex: none;
-  position: absolute;
-  left: 5%;
-  bottom: 1%; }
-  .projectText h1 {
-    color: darkslategray; }
-  .projectText h2 {
-    color: gray; }
+.buttonGroup {
+  height: 8%;
+  width: 100%;
+  text-align: center; }
+
+.button {
+  width: 30%;
+  height: 60%;
+  margin: 5%;
+  border-radius: 5px;
+  border: 1px solid silver;
+  background-color: white; }
 
 /*# sourceMappingURL=application.css.map */
